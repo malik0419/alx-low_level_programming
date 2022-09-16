@@ -22,7 +22,7 @@ void times_table(void)
 		for (mult = 1; mult <= 9; ++mult)
 		{
 			_putchar(',');
-			_putchar('');
+			_putchar(' ');
 
 			prod = num * mult;
 
@@ -31,7 +31,7 @@ void times_table(void)
 			 * place the first digit if its two numbers
 			 */
 			if (prod <= 9)
-				_putchar('');
+				_putchar(' ');
 				else
 					_putchar((prod / 10) + 48); /*get the first digit*/
 
