@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: Prints the sum of even-valued
- *	Fibonacci sequence not exceed 4million
+ *	Fibonacci sequence not exceeding 4000000
  *
  * Return: Always 0 (Success)
  */
@@ -20,7 +20,7 @@ int main(void)
 
 		if (sum > 4000000)
 			break;
-		
+
 		if ((sum % 2) == 0)
 			total_sum += sum;
 
