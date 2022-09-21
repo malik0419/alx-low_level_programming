@@ -6,7 +6,8 @@
  * @dest: string
  * @src: string
  * @n: integer
- * */
+ * Return: concantenet string
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
